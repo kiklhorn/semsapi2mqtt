@@ -1,7 +1,7 @@
 {
   "domain": "semsapi2mqtt",
   "name": "Goodwe SEMS API to MQTT sensor",
-  "version:": "0.6.0",
+  "version": "0.6.0",
   "config_flow": true,
   "documentation": "https://www.github.com/semsapi2mqtt",
   "requirements": [
