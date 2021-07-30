@@ -13,7 +13,7 @@ Some artifical values maybe I add later (charge,discharge in string form, total 
 
 Minimal Python version - 3.9 (I think all 2021 HA vertsions +)
 
-https://www.buymeacoffee.com/kiklhorn
+###### [Buy me a coffee](https://www.buymeacoffee.com/kiklhorn)
 -------------------------------------------------------------------------------------------------------------------------------
 
 # GoodWe SEMS Portal MQTT Component for Home Assistant
