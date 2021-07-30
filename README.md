@@ -1,5 +1,19 @@
-Work in progress
-Add multiple inverters, more sensors...
+# Last update:
+Added multiple inverters capability, create full sensors set for every inverter and publish it as structuralized MQTT data.
+Add all to mqtt HA discovery, with some translations posibility (name, units, maybe sensor device class...) - sensors in HA is created automaticaly.
+
+Created sensor names form is - "name-sn" 
+where 
+- name is from api readings or from sensors_data_template dictionary if is there. (__init.py__)
+- sn is last two chars from inverter serial number
+
+Icons, units - from sensors_data_template too.
+
+Some artifical values maybe I add later (charge,discharge in string form, total produced energy included actual day, etc...)
+
+Minimal Python version - 3.9 (I think all 2021 HA vertsions +)
+
+-------------------------------------------------------------------------------------------------------------------------------
 
 # GoodWe SEMS Portal MQTT Component for Home Assistant
 Home Assistant component for accessing the GoodWe SEMS Portal API.
