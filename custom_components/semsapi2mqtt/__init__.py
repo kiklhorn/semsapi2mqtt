@@ -7,7 +7,7 @@ Home Assistant component for accessing the GoodWe SEMS Portal API.
 
 Configuration (example):
 
-sems2mqtt:
+semsapi2mqtt:
   broker: mqtt broker IP
   broker_user: mqtt broker login
   broker_pw: mqtt broker password
@@ -89,7 +89,7 @@ sensors_data_template = {
     "tempperature": {
         "name": "temperature",
         "icon": "mdi:solar-power",
-        "unit_of_meas": "°C",
+        "unit_of_meas": "Â°C",
     },
     "eday": {"name": "sems_produced_today", "icon": "mdi:flash", "unit_of_meas": "kWh"},
     "etotal": {
