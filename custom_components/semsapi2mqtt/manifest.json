@@ -1,0 +1,20 @@
+{
+  "domain": "semsapi2mqtt",
+  "name": "Goodwe SEMS API to MQTT sensor",
+  "version:": "0.6.0",
+  "config_flow": true,
+  "documentation": "https://www.github.com/semsapi2mqtt",
+  "requirements": [
+    "requests~=2.25.1",
+    "paho-mqtt~=1.5.1"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@kiklhorn"
+  ],
+  "iot_class": "cloud_polling",
+  "mqtt": ["sems/discovery/#"]
+}
