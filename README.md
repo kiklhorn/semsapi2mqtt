@@ -1,10 +1,6 @@
 Work in progress
 Add multiple inverters, more sensors...
 
-***UPDATE***: I no longer own a GoodWe solar inverter but I am happy to maintain this code. 
-Just let me know what needs to change, by creating a Pull request or an Issue, or start a Discussion.
-
-
 # GoodWe SEMS Portal MQTT Component for Home Assistant
 Home Assistant component for accessing the GoodWe SEMS Portal API.
 Adapted from https://github.com/TimSoethout/goodwe-sems-home-assistant but altered to use the SEMS API.
