@@ -31,8 +31,8 @@ Installation of this component is done by copying the files `__init__.py` and `m
 In configuration.yaml add the custom_component as follows:
 ```
 sems2mqtt:
-  broker: 192.168.1.10          mqtt broker IP
-  broker_user: username         mqtt broker login
+  broker: core-mosquitto          mqtt broker IP or use core-mosquitto for default core mosquitto integration
+  broker_user: username         mqtt broker login - reconfigure mqtt in HA - set own user and pw
   broker_pw: password1          mqtt broker password
   username: john.doe@gmail.com  sems login (full email-address*)
   password: password2           sems password
