@@ -30,8 +30,8 @@ Installation of this component is done by copying the files `__init__.py` and `m
 
 In configuration.yaml add the custom_component as follows:
 ```
-sems2mqtt:
-  broker: core-mosquitto          mqtt broker IP or use core-mosquitto for default core mosquitto integration
+semsapi2mqtt:
+  broker: core-mosquitto        mqtt broker IP or use core-mosquitto for default core mosquitto integration
   broker_user: username         mqtt broker login - reconfigure mqtt in HA - set own user and pw
   broker_pw: password1          mqtt broker password
   username: john.doe@gmail.com  sems login (full email-address*)
@@ -39,6 +39,9 @@ sems2mqtt:
   station_id: your-station-ID   see remark below
   client: sems2mqtt             (optional, MQTT cient-id, default is 'sems2mqtt')
   scan_interval: 150            (optional, default is 300 seconds, keep to 300 seconds or less!)
+  sn_inverters: True # create mqtt inverters topics by its serial numbers
+  count_inverters: False # create mqtt inverters topics by its index
+  mqtt_prefix: Elektrarna # mqtt topic root - can be start/other/next
 ```
 * If you are using the SEMS Portal app on Android or IOS, it is strongly suggested to create a Visitor account with a different email address and use the credentials of the Visitor account for this custom_component. In the Adroid app, a visitor account can be added on the 'Modify Plant Info' page, scroll down to the bottom of the page to find the 'add visitor'-button.
 
